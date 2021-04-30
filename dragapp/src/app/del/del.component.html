@@ -1,0 +1,12 @@
+<br><br>
+<h1 class="container"><b>Delete Products</b></h1><br>
+<div class="container">
+    <form #deleteform='ngForm' (ngSubmit)="delbook(deleteform.value)">
+        <div class="form-group">
+          <label>Title</label>
+        <input type="text" class="form-control" ngModel placeholder="Title" name="title">
+        </div>
+        <button class="btn btn-danger">Delete product</button>
+      <br><br>
+    </form>
+</div>

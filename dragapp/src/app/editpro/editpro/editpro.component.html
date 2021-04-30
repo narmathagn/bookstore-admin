@@ -1,0 +1,64 @@
+<br><br>
+<div class="container">
+  <form #addform='ngForm' (ngSubmit)="addbook(addform.value)">
+      <h1><b>Add Products</b></h1>
+      <div class="form-group">
+        <label>Title</label>
+      <input type="text" class="form-control" ngModel placeholder="Title" name="title">
+      </div>
+      <div class="form-group">
+        <label>ISBN</label>
+      <input type="text" class="form-control" ngModel placeholder="ISBN"  name="isbn">
+      </div>
+      <div class="form-group">
+        <label>Page Count</label>
+      <input type="text" class="form-control" ngModel placeholder="Page Count" name="pagecount">
+      </div>
+      <div class="form-group">
+        <label>Published Date</label>
+      <input type="date" class="form-control" ngModel placeholder="Published Date" name="publishdate">
+      </div>
+      <div class="form-group">
+        <label>ThumbnailUrl</label>
+      <input type="text" class="form-control" ngModel placeholder="ThumbnailUrl" name="thumbnail">
+      </div>
+      <div class="form-group">
+        <label>Short Description</label>
+      <textarea class="form-control" rows="2" ngModel placeholder="Short Description" name="short"></textarea>
+      </div>
+      <div class="form-group">
+        <label>Long Description</label>
+      <textarea class="form-control" rows="2" ngModel placeholder="Long Description" name="long"></textarea>
+      </div>
+      <div class="form-group">
+        <label>Status</label>
+      <input type="text" class="form-control" ngModel placeholder="Status" name="stat">
+      </div>
+      <div class="form-group">
+        <label>Authors</label>
+      <input type="text" class="form-control" ngModel placeholder="Author" name="author">
+      </div>
+      <div class="form-group">
+        <label>Categories</label>
+      <input type="text" class="form-control" ngModel placeholder="Categories" name="category">
+      </div>
+      <div class="form-group">
+        <label>Price</label>
+      <input type="text" class="form-control" ngModel placeholder="Price" name="price">
+      </div>
+      <div class="form-group">
+        <label>Currency</label>
+      <input type="text" class="form-control" ngModel placeholder="Currency" name="currency">
+      </div>
+      <div class="form-group">
+        <label>Discount</label>
+      <input type="text" class="form-control" ngModel placeholder="Discount" name="discount">
+      </div>
+      <div class="form-group">
+        <label>Discount Units</label>
+      <input type="text" class="form-control" ngModel placeholder="Discountunits" name="discountunit">
+      </div>
+      <button class="btn btn-success">Add product</button>
+      <br><br>
+  </form>
+  </div>
